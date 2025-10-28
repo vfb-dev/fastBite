@@ -1,0 +1,11 @@
+asgiref==3.8.1
+backports.zoneinfo==0.2.1;python_version<"3.9"
+Django==4.2.19
+pillow==11.1.0
+psycopg2-binary
+python-decouple==3.8
+simplejson==3.20.1
+sqlparse==0.5.3
+typing-extensions==4.12.2
+tzdata==2025.1
+gunicorn
