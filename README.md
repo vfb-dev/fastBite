@@ -1,19 +1,23 @@
-# 🛵 FastBite
+# FastBite
 
 **FastBite** is a geolocation-based food marketplace built with Django. It connects users with local restaurants and vendors using precise mapping and location-aware features. FastBite also supports real-time order updates and PayPal payments.
 
----
+## Screenshot
 
-## 🚀 Features
+<div align="center">
+  <p float="left">
+    <img src="static/images/screenshot.png" width="100%" />
+  </p>
+</div>
+
+## Features
 
 - 🌍 **Geolocation-based marketplace** using **PostGIS** and **GDAL**
 - ⚙️ **Django** backend with custom **Signals** for real-time event handling
 - 💳 **PayPal** integration for secure payments
 - 📦 **PostgreSQL + PostGIS** for spatial queries and geo indexing
 
----
-
-## 🧱 Tech Stack
+## Stack
 
 | Layer            | Tech                 |
 | ---------------- | -------------------- |
@@ -23,9 +27,7 @@
 | Payments         | PayPal SDK           |
 | Deployment       | Gunicorn + Nginx     |
 
----
-
-## 🗺️ Geolocation
+## Geolocation
 
 FastBite leverages **PostGIS** to:
 
@@ -35,18 +37,16 @@ FastBite leverages **PostGIS** to:
 
 Ensure **GDAL** is properly installed and linked for geospatial support.
 
----
-
-## ⚙️ Installation (Development)
+## Getting Started
 
 ```bash
 # Clone the repo
-git clone https://github.com/AppRonin/fastBite.git
-cd fast-bite
+git clone https://github.com/vfb-dev/fastBite.git
+cd fastBite
 
 # Setup virtual environment
-python -m venv venv
-source venv/bin/activate
+python -m venv env
+source env/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
@@ -57,3 +57,7 @@ python manage.py migrate
 # Run server
 python manage.py runserver
 ```
+
+## Author
+
+vfb-dev — Turning ideas into web apps
